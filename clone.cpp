@@ -1,10 +1,10 @@
-#include "string.h>
+#include "string.h"
 
 String clone(String &string)
 {
     String newString;;
     newString.size = string.size;
-    newString.data = new char[newString->size];
+    newString.data = new char[newString.size];
 
     for (int i = 0; i < newString.size; i++)
     {
